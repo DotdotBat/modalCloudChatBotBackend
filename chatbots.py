@@ -142,7 +142,3 @@ def fastapi_app():
     app = fp.make_app(bot, access_key=POE_ACCESS_KEY)
     # app = fp.make_app(bot, allow_without_key=True)
     return app
-
-
-# to update bot settings use this command in powershell:
-# Invoke-RestMethod -Method Post -Uri "https://api.poe.com/bot/fetch_settings/myBotBuiltWithModal/rT4gV1MOhh16RXKQ9muzWqd3kvnJuJpS"
