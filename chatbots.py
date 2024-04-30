@@ -71,7 +71,8 @@ class rememberUserBot(fp.PoeBot):
         yield fp.PartialResponse(text=response)
 
 
-# implemented a functionality where a bot 
+# implemented a functionality where a bot remembers a pdf text, and shows you 5 sentences from it. 
+# you can say a word from the sentences you see and the bot will scroll down to the first sentence that has this word. 
 class pdfCrawlerBot(fp.PoeBot):
     def __init__(self):
         super().__init__()
